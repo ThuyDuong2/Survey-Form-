@@ -42,4 +42,5 @@ To run the development survey form locally, follow these steps:
 * Note: Replace "8000" with the port number your web server is runing on, if you used a different port
 6. You should now be able to access and interact with the development survey form in your web browser.
 
-### Video About the Survey
+### Visual demonstration of this project
+<img src="https://www.loom.com/share/f2cfdce76dbf4923bad8814a4a70dd8d?sid=87b0c08d-8995-49af-984c-550748777504" title="Visual demonstration of this project" alt="Development Survey Form" />
