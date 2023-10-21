@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang ="en">
+  <head>
+    <meta charset="UTF-8" >
+    <title>Development Survey Form</title>
+    <link rel= "stylesheet" href= "styles.css"/>
+  </head>
+  <body>
+    <h1 id ="title">Development Survey Form</h1>
+    <p id ="description">Thank you for taking the time to help us improve the platform</p>
+<div class="survey">
+    <form method = "post" action= "https://register-demo.freecodecamp.org" id="survey-form">
+
+    <fieldset>
+      <label id ="name-label" for ="name">Name<input id="name" type="text" placeholder= "Enter your name"required/></label>
+      <label id="email-label"for= "email">Email<input id="email" type = "email" placeholder= "Enter your email" required/><label>
+      <label id="number-label" for= "number">Age<input id="number" type="number" min="6" max="120" placeholder= "Enter your age" /><label>
+   <label for= "dropdown">Which option best describes your current role?
+        <select id="dropdown">
+          <option>Select your current role</option>
+          <option>Student</option>
+          <option>Full Time Leaner</option>
+           <option>Full Time Job</option>
+            <option>Prefer not to say</option>
+             <option>Other</option>
+
+        </select>
+    </label>
+
+<legend>What Is Your Preferred Development Areas?</legend>
+   <label> <input type = "radio" value="backend development" name ="survey-radio" class="inline" checked/> Backend Development</label>
+
+   <label><input type = "radio" value="full stack development" name="survey-radio" class="inline"/> Full Stack Development</label>
+
+       <label> <input type = "radio" value="frontend development" name="survey-radio" class="inline"/> Frontend Development</label>
+       <label> <input type = "radio" value="DevOps" name="survey-radio" class="inline"/> DevOps</label>
+
+       <label for= "dropdown">What skills do you have to become the developer?
+        <select id="dropdown">
+          <option>Select your current role</option>
+          <option>HTML and CSS</option>
+          <option>JavaScript</option>
+           <option>React</option>
+            <option>Nodejs</option>
+             <option>Django</option>
+
+        </select>
+    </label>
+
+
+       <legend>What would you like to see improved? (Check all that apply)</legend>
+
+         <label> <input type = "checkbox" value ="frontend-projects" class ="inline" checked/>Frontend Projects</label>
+       <label> <input type = "checkbox" value="backedn-projects" class="inline"/>Backend Projects</labels>
+       <label> <input type = "checkbox" value="data visualization" class="inline"/>Data Visualization</labels>
+        <label> <input type = "checkbox" value="react native" class="inline"/>React Native</labels>
+
+   <label> Any comment and suggestions?    <textarea placeholder="Enter your comment..."></textarea></label>
+   <input id="submit" type= "submit" value="Submit"/>
+   </fieldset>
+
+
+    </form>
+    </div>
+  </body>
+</html>
