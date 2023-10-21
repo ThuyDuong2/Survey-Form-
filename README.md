@@ -43,4 +43,4 @@ To run the development survey form locally, follow these steps:
 6. You should now be able to access and interact with the development survey form in your web browser.
 
 ### Visual demonstration of this project
-<img src="https://www.loom.com/share/f2cfdce76dbf4923bad8814a4a70dd8d?sid=0a82e761-c23d-4286-a45d-754874176e01" title="Visual demonstration of this project" alt="Development Survey Form" />
+<video src="https://www.loom.com/share/f2cfdce76dbf4923bad8814a4a70dd8d?sid=0a82e761-c23d-4286-a45d-754874176e01" title="Visual demonstration of this project" alt="Development Survey Form" />
