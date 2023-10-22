@@ -44,4 +44,7 @@ To run the development survey form locally, follow these steps:
 
 ### Visual demonstration of this project
 
-  <img src="https://cdn.loom.com/sessions/thumbnails/f2cfdce76dbf4923bad8814a4a70dd8d-with-play.gif" title="Visual demonstration of this project" alt="Visual demonstration of this project" />
+  <video width="320" height="240" controls autoplay>
+  <source src="https://cdn.loom.com/sessions/thumbnails/f2cfdce76dbf4923bad8814a4a70dd8d-with-play.gif" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
